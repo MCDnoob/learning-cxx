@@ -1,8 +1,6 @@
 {
     cmdlines = {
         "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise13",
-        "xmake -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise13",
-        "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise13",
         "xmake -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise14",
         "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise14",
         "xmake -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise14",
@@ -63,6 +61,8 @@
         "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise01",
         "xmake -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise00",
         "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise00",
+        "xmake -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise33",
+        "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise33",
         "xmake -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise33",
         "xmake run -P /home/robot/workspace/AIwinterbootcamp/exam-grading/learning-cxx/exercises exercise33"
     }

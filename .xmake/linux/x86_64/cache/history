@@ -50,6 +50,7 @@
         "xmake run learn 33",
         "xmake run learn 1",
         "xmake run learn 0",
+        "xmake run learn 33",
         "xmake run learn 33"
     }
 }
