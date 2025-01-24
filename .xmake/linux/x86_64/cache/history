@@ -51,6 +51,16 @@
         "xmake run learn 1",
         "xmake run learn 0",
         "xmake run learn 33",
-        "xmake run learn 33"
+        "xmake run learn 33",
+        "xmake run learn 5",
+        "xmake run learn 6",
+        "xmake run learn 6",
+        "xmake run learn 6",
+        "xmake run learn 6",
+        "xmake run learn 5",
+        "xmake run learn 5",
+        "xmake run learn 6",
+        "xmake run learn 6",
+        "xmake run learn 6"
     }
 }
