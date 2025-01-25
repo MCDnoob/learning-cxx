@@ -1,7 +1,6 @@
 {
-    files = {
-        "08_pointer/main.cpp"
-    },
+    depfiles_gcc = "main.o: 08_pointer/main.cpp 08_pointer/../exercise.h\
+",
     values = {
         "/usr/bin/gcc",
         {
@@ -16,6 +15,7 @@
             "-DNDEBUG"
         }
     },
-    depfiles_gcc = "main.o: 08_pointer/main.cpp 08_pointer/../exercise.h\
-"
+    files = {
+        "08_pointer/main.cpp"
+    }
 }

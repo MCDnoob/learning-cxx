@@ -6,17 +6,13 @@ bool is_fibonacci(int *ptr, int len, int stride) {
     // TODO: 编写代码判断从 ptr 开始，每 stride 个元素取 1 个元素，组成长度为 n 的数列是否满足
     // arr[i + 2] = arr[i] + arr[i + 1]
     int i = 0;
-    while(i<len - 2*stride){
-        int a = *(ptr+i);
-        int b = *(ptr+i+stride);
-        int c = *(ptr+i+2*stride);
-
-        if(c!=a+b){
+    for(int count = 2; count<len; count++){
+        if(ptr[i+2*stride]!=ptr[i] + ptr[i+stride]){
             return false;
         }
-
-        i=i+stride;
+        i += stride;
     }
+
     return true;
 }
 
